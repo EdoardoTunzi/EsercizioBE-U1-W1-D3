@@ -12,8 +12,9 @@ public class SIM {
         this.listaChiamate = new ArrayList<>();
     }
 
-    public void addCall(String call) {
-        this.listaChiamate.add(call);
+    public void addCall(String durataInMin, String numeroChiamato) {
+        String infoCall = "Chiamata a: " + numeroChiamato + ", durata: " + durataInMin;
+        this.listaChiamate.add(infoCall);
     }
     public void addCredit(int amount) {
         this.credito += amount;

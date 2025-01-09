@@ -12,8 +12,7 @@ public class Main {
        //Esercizio2
         SIM sim1 = new SIM("3456021981");
         sim1.addCredit(25);
-        sim1.addCall("Chiamata Mario");
-        sim1.addCall("Chiamata Francesco");
+        sim1.addCall("3:23", "3326594789");
         sim1.printInfoSim();
     }
 }
