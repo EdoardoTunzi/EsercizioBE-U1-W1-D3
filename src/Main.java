@@ -1,4 +1,5 @@
 import be.Esecizi.d3.Esercizio1.Rettangolo;
+import be.Esecizi.d3.Esercizio2.SIM;
 
 public class Main {
     public static void main(String[] args) {
@@ -7,5 +8,12 @@ public class Main {
        Rettangolo ret2 = new Rettangolo(22.2,48.5);
        ret1.stampaRettangolo(ret1);
        ret2.stampaDueRettangoli(ret1, ret2);
+
+       //Esercizio2
+        SIM sim1 = new SIM("3456021981");
+        sim1.addCredit(25);
+        sim1.addCall("Chiamata Mario");
+        sim1.addCall("Chiamata Francesco");
+        sim1.printInfoSim();
     }
 }
